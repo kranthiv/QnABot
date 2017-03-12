@@ -13,8 +13,8 @@ namespace DpsBot.QnADialog
 {
     public class QnAService
     {
-        private const string knowledgebaseId = @"a0f43246-1483-437d-a0fc-94d448c629c2";
-        private const string qnamakerSubscriptionKey = "4398fe15638b42ee8af4aebbc8abddbb";
+        private const string knowledgebaseId = @"";
+        private const string qnamakerSubscriptionKey = "";
 
         public async Task<QnAResponse> GetAnswerAsync(string question)
         {
